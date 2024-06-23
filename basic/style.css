@@ -1533,10 +1533,10 @@ nav img {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  color: #313435;
 }
 
 .banner-block h4 {
-  color: #313435;
   font-family: var(--font-heading);
   font-size: 3.6992rem;
   font-weight: 700;
@@ -1545,7 +1545,7 @@ nav img {
 
 .banner-block p {
   font-size: 1.9652rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 3.2752rem;
 }
 
