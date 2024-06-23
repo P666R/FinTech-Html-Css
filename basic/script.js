@@ -1,15 +1,9 @@
 window.addEventListener('scroll', function () {
   const header = document.querySelector('.header-main');
-  const navMenu = document.querySelector('.nav-menu');
-
   if (window.scrollY > 50) {
     header.classList.add('scrolled');
-    if (navMenu.classList.contains('active')) {
-      navMenu.classList.add('scrolled');
-    }
   } else {
     header.classList.remove('scrolled');
-    navMenu.classList.remove('scrolled');
   }
 });
 
