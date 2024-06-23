@@ -312,8 +312,6 @@ nav img {
 
 .features-text {
   flex: 0 1 auto;
-  width: 50%;
-  /* margin-top: 15rem; */
   color: var(--gray);
 }
 
@@ -356,7 +354,6 @@ nav img {
 
 .features-img-container {
   flex: 0 1 auto;
-  width: 50%;
 }
 
 .features-img {
@@ -1729,7 +1726,7 @@ nav img {
 
     height: 100vh;
     background-color: transparent;
-    transition: right 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 
   .nav-menu.active {
@@ -1766,55 +1763,19 @@ nav img {
     font-size: 43.75%; /* 1rem = 7px */
   }
 
-  /* .features-container {
+  .main-features-container {
     flex-direction: column;
     align-items: center;
-  } */
-
-  /* .features-text {
-    margin-top: 0;
-  } */
-
-  /* .main-features-container {
-    flex-direction: column;
-    align-items: center;
-  } */
-
-  /* .main-features-container::after {
-    width: 80%;
-    height: 40%;
-    top: 10%;
-    left: -10%;
-    position: absolute;
-    content: '';
-    z-index: -1;
-    background-color: rgb(244, 244, 249);
-  } */
-
-  /* .main-features-text span,
-  .main-features-text h2,
-  .main-features-text p {
-    text-align: center;
-  } */
-
-  /* 
-  .main-features-card-container {
-    flex: 0 1 48%;
-    flex-direction: column;
   }
 
-  .main-features-card {
-    flex: 0;
-  } */
+  .main-features-container::after {
+    width: 95%;
+    height: 45%;
+  }
 
   .secondary-features-box-container {
     flex-direction: column;
   }
-
-  /* .incredible-features-box-container {
-    flex-direction: column;
-    gap: 2rem;
-  } */
 
   .features-content-section-container {
     flex-direction: column;
@@ -1850,6 +1811,40 @@ nav img {
   }
 
   .statistic-container {
+    flex-direction: column;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  .main-features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-features-container::after {
+    height: 50%;
+  }
+
+  .incredible-features-box-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .features-customers-container {
+    flex-direction: column;
+  }
+
+  .features-works-container {
+    flex-direction: column;
+  }
+
+  .features-marketing-container {
+    flex-direction: column;
+  }
+
+  .features-discover-container {
     flex-direction: column;
   }
 }
