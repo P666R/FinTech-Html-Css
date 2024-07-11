@@ -25,8 +25,21 @@
           <ul class="nav-menu">
             <li class="nav-item">
               <a href="#" class="nav-link"
-                >About <span class="nav-arrow">&#9660;</span></a
-              >
+                >About
+                <svg
+                  class="nav-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  /></svg
+              ></a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Services</a>
@@ -42,45 +55,114 @@
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link"
-                >Lang <span class="nav-arrow">&#9660;</span></a
-              >
+                >Lang
+                <svg
+                  class="nav-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  /></svg
+              ></a>
             </li>
             <li class="nav-item">
               <a href="#" class="btn btn-nav-primary">Get Started</a>
             </li>
           </ul>
+
+          <!-- Hamburger Menu -->
           <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+            <svg class="" viewBox="0 0 24 24">
+              <path
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+              />
+            </svg>
+          </div>
+          <!-- Mobile Menu -->
+          <div class="mobile-menu">
+            <ul class="mobile-nav-menu">
+              <li>
+                <a href="#"
+                  >About
+                  <svg
+                    class="nav-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    /></svg
+                ></a>
+              </li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Support</a></li>
+              <li>
+                <a href="#"
+                  >Lang
+                  <svg
+                    class="nav-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    /></svg
+                ></a>
+              </li>
+              <li><a href="#" class="btn btn-nav-primary">Get Started</a></li>
+            </ul>
           </div>
         </nav>
       </header>
 
       <!-- Hero Section -->
       <section class="hero-section">
-        <div class="hero-container">
-          <!-- Hero Text -->
-          <h2 class="hero-title">Ultimate Analytics To Boost Your Business</h2>
+        <div class="container">
+          <div class="hero-container">
+            <!-- Hero Text -->
+            <h2 class="hero-title">
+              Ultimate Analytics To Boost Your Business
+            </h2>
 
-          <p class="hero-description">
-            Discover advanced analytics and actionable insights to efficiently
-            drive your business growth forward with greater ease and confidence
-          </p>
+            <p class="hero-description">
+              Discover advanced analytics and actionable insights to efficiently
+              drive your business growth forward with greater ease and
+              confidence
+            </p>
 
-          <div class="hero-buttons">
-            <button class="btn btn-hero-primary">Get Started Now</button>
-            <button class="btn btn-hero-secondary">Find Out More</button>
+            <div class="hero-buttons">
+              <button class="btn btn-hero-primary">Get Started Now</button>
+              <button class="btn btn-hero-secondary">Find Out More</button>
+            </div>
           </div>
-        </div>
-        <div class="hero-image-container">
-          <img src="images/hero-img.jpg" alt="hero-img" class="hero-image" />
+          <div class="hero-image-container">
+            <img src="images/hero-img.jpg" alt="hero-img" class="hero-image" />
+          </div>
         </div>
       </section>
 
       <!-- Statistic section -->
       <section class="statistic-section">
-        <div class="statistic-container">
+        <div class="statistic-container container">
           <div class="statistic-block">
             <h2 class="statistic-number">9.1K</h2>
             <p class="statistic-text">
@@ -107,7 +189,7 @@
 
       <!-- Features Section -->
       <section class="features-section">
-        <div class="features-container">
+        <div class="features-container container">
           <div class="features-text">
             <span>Endless Possibilities</span>
 
@@ -145,7 +227,7 @@
 
       <!-- Main Features Section -->
       <section class="main-features-section">
-        <div class="main-features-container">
+        <div class="main-features-container container">
           <div class="main-features-card-container">
             <div class="main-features-card">
               <img
@@ -212,7 +294,7 @@
 
       <!-- Secondary Features Section -->
       <section class="secondary-features-section">
-        <div class="secondary-features-container">
+        <div class="secondary-features-container container">
           <h2 class="secondary-features-title">
             Maximizing Your Marketing Impact
           </h2>
@@ -225,7 +307,7 @@
 
       <!-- Secondary Features box Section -->
       <section class="secondary-features-box-section">
-        <div class="secondary-features-box-container">
+        <div class="secondary-features-box-container container">
           <div class="secondary-features-box">
             <img
               src="https://img.icons8.com/ios-filled/100/228BE6/bar-chart--v1.png"
@@ -284,7 +366,7 @@
 
       <!-- Incredible Features Section -->
       <section class="incredible-features-section">
-        <div class="incredible-features-container">
+        <div class="incredible-features-container container">
           <div class="incredible-features-heading-container">
             <h2>The Top Features</h2>
             <p>
@@ -336,7 +418,7 @@
 
       <!-- Features Content Section -->
       <section class="features-content-section">
-        <div class="features-content-section-container">
+        <div class="features-content-section-container container">
           <div class="features-content-section-text">
             <div class="features-content-section-text-block1">
               <span>Personalized Strategy</span>
@@ -397,7 +479,7 @@
 
       <!-- Features Solutions Section -->
       <section class="features-solutions">
-        <div class="features-solutions-container">
+        <div class="features-solutions-container container">
           <div class="features-solutions-text">
             <h2>Integrated Solutions</h2>
             <p>
@@ -491,7 +573,7 @@
 
       <!-- Feature Solutions Progress Section -->
       <section class="feature-solutions-progress-section">
-        <div class="feature-solutions-progress-container">
+        <div class="feature-solutions-progress-container container">
           <img
             src="images/features-progress.jpg"
             alt="features-progress"
@@ -524,7 +606,7 @@
 
       <!-- Features Progress Content Section -->
       <section class="features-progress-content-section">
-        <div class="features-progress-content-container">
+        <div class="features-progress-content-container container">
           <div class="features-progress-content-accordion-container">
             <ul class="features-progress-content-accordion">
               <li class="features-progress-content-accordion-item">
@@ -617,7 +699,7 @@
 
       <!-- Features Video Content Section -->
       <section class="features-video-content-section">
-        <div class="features-video-content-container">
+        <div class="features-video-content-container container">
           <div class="features-video-content-text">
             <h2>Unified Platform</h2>
             <p>
@@ -643,7 +725,7 @@
 
       <!-- Features Statistics Second Section -->
       <section class="features-statistics-second-section">
-        <div class="features-statistics-second-container">
+        <div class="features-statistics-second-container container">
           <div class="features-statistics-second-block">
             <h2>67%</h2>
             <p>Boost in productivity and teamwork after using our tool</p>
@@ -665,7 +747,7 @@
 
       <!-- Features Customers Section -->
       <section class="features-customers-section">
-        <div class="features-customers-container">
+        <div class="features-customers-container container">
           <div class="features-customers-text">
             <span>Our satisfied customers</span>
             <h3>Join 2,000+ Leading Digital Agencies Globally</h3>
@@ -690,7 +772,7 @@
 
       <!-- Features Works Section -->
       <section class="features-works-section">
-        <div class="features-works-container">
+        <div class="features-works-container container">
           <div class="features-works-img-container">
             <img src="images/feats-work.jpg" alt="feats-work" />
           </div>
@@ -717,7 +799,7 @@
 
       <!-- Features Marketing Section -->
       <section class="features-marketing-section">
-        <div class="features-marketing-container">
+        <div class="features-marketing-container container">
           <div class="features-marketing-text-container">
             <span>Strategy & Consulting</span>
             <h2>Effective Digital Marketing Results</h2>
@@ -741,7 +823,7 @@
 
       <!-- Features Discover Section -->
       <section class="features-discover-section">
-        <div class="features-discover-container">
+        <div class="features-discover-container container">
           <div class="features-discover-img-container">
             <img src="images/feats-discover.jpg" alt="feats-discover" />
           </div>
@@ -763,7 +845,7 @@
 
       <!-- Testimonials Section -->
       <section class="testimonials-section">
-        <div class="testimonials-container">
+        <div class="testimonials-container container">
           <div class="testimonials-text-container">
             <h2>Our Happy Clients</h2>
             <p>Read what our esteemed clients think about us</p>
@@ -852,7 +934,7 @@
 
       <!-- Banner Section -->
       <section class="banner-section">
-        <div class="banner-container">
+        <div class="banner-container container">
           <div class="banner-block">
             <h4>Join 2,000+ Thriving Businesses<br />With FinTech</h4>
             <p>Start your free 7-day trial. No credit card required.</p>
@@ -866,7 +948,7 @@
 
       <!-- Footer Section-->
       <footer class="footer-section">
-        <div class="footer-container">
+        <div class="footer-container container">
           <!-- footer-section-text-container start-->
           <div class="footer-section-text-container">
             <div class="footer-block">

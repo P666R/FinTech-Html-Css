@@ -7,16 +7,14 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// hamburger
 const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const mobileMenu = document.querySelector('.mobile-menu');
 
-hamburger.addEventListener('click', mobileMenu);
+hamburger.addEventListener('click', function () {
+  mobileMenu.classList.toggle('active');
+});
 
-function mobileMenu() {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-}
+// ppppppppppppppppp
 
 document.addEventListener('DOMContentLoaded', () => {
   const accordionItems = document.querySelectorAll(
