@@ -276,8 +276,9 @@ nav img {
 }
 
 .hero-image-container {
-  width: 98%;
-  margin: 0 auto;
+  /* width: 98%;
+  margin: 0 auto; */
+  text-align: center;
   margin-top: 6rem;
 }
 
