@@ -16,6 +16,7 @@ hamburger.addEventListener('click', function () {
 
 // ppppppppppppppppp
 
+/*
 document.addEventListener('DOMContentLoaded', () => {
   const accordionItems = document.querySelectorAll(
     '.features-progress-content-accordion-item'
@@ -48,3 +49,4 @@ document.addEventListener('DOMContentLoaded', () => {
     icon.src = 'https://img.icons8.com/material-outlined/24/228BE6/minus.png';
   }
 });
+*/
