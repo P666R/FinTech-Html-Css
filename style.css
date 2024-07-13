@@ -411,7 +411,7 @@ nav img {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 0.1rem;
   position: relative;
 }
 
@@ -1572,7 +1572,7 @@ nav img {
       rgba(255, 255, 255, 0.8),
       rgba(0, 0, 0, 0.4)
     ),
-    url(../images/banner-1.jpg);
+    url(images/banner-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
