@@ -228,7 +228,7 @@ nav img {
 }
 
 .hero-buttons {
-  padding: 3rem 0;
+  padding: 2rem 0;
   display: flex;
   gap: 2rem;
 
@@ -267,6 +267,10 @@ nav img {
   color: var(--white);
   background-color: var(--coal);
   border-color: var(--coal);
+}
+
+.hero-padding {
+  padding: 2.2rem 4.4rem;
 }
 
 .hero-image-container {
