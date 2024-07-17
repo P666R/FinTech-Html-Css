@@ -228,6 +228,7 @@ nav img {
 }
 
 .hero-buttons {
+  padding: 3rem 0;
   display: flex;
   gap: 2rem;
 
@@ -1857,12 +1858,13 @@ nav img {
   .main-features-container {
     flex-direction: column;
     align-items: center;
+    gap: 6rem;
   }
 
   .main-features-card-container::after {
     width: 120%;
-    height: 65%;
-    top: 28%;
+    height: 60%;
+    top: 33%;
     left: -10%;
   }
 
@@ -2055,6 +2057,7 @@ nav img {
   }
 
   .hero-buttons {
+    width: 100%;
     flex-direction: column;
     align-items: stretch;
   }
