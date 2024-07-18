@@ -2049,16 +2049,6 @@ nav img {
   .main-features-card-container::after {
     top: 31%;
   }
-}
-
-@media (max-width: 420px) {
-  .container {
-    max-width: 420px;
-  }
-
-  html {
-    font-size: 46%;
-  }
 
   .hero-buttons {
     width: 100%;
@@ -2069,6 +2059,16 @@ nav img {
   .banner-block-btn-container {
     flex-direction: column;
     align-items: stretch;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    max-width: 420px;
+  }
+
+  html {
+    font-size: 46%;
   }
 }
 
