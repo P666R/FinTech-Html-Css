@@ -2050,15 +2050,8 @@ nav img {
     top: 31%;
   }
 
-  .hero-buttons {
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .banner-block-btn-container {
-    flex-direction: column;
-    align-items: stretch;
+  .hero-padding {
+    padding: 1.8rem 2rem;
   }
 }
 
@@ -2069,6 +2062,21 @@ nav img {
 
   html {
     font-size: 46%;
+  }
+
+  .hero-padding {
+    padding: 2.2rem 4.4rem;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .banner-block-btn-container {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 
